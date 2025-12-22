@@ -1,0 +1,1 @@
+# course schema file

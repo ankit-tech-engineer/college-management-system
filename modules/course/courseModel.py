@@ -1,0 +1,1 @@
+# course model file

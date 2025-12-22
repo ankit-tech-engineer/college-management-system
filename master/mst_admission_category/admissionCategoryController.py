@@ -1,0 +1,7 @@
+from base.BaseController import BaseController
+from master.mst_admission_category.admissionCategoryService import AdmissionCategoryService
+from master.mst_admission_category.admissionCategoryModel import AdmissionCategoryCreateSchema, AdmissionCategoryUpdateSchema
+
+service = AdmissionCategoryService()
+base_controller = BaseController(service, AdmissionCategoryCreateSchema, AdmissionCategoryUpdateSchema, "admission_categories")
+router = base_controller.create_routes()

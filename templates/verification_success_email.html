@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Email Verified Successfully - College Management System</title>
+</head>
+
+<body
+    style="margin: 0; padding: 0; font-family: 'Segoe UI', Arial, sans-serif; background-color: #f4f6f8; color: #333;">
+    <div
+        style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+
+        <!-- Header -->
+        <div
+            style="background: linear-gradient(135deg, #27ae60, #2ecc71); color: #fff; text-align: center; padding: 30px 20px;">
+            <h1 style="margin: 0; font-size: 26px; font-weight: 700;">✅ Email Verified Successfully!</h1>
+            <p style="margin: 10px 0 0; font-size: 15px;">Welcome to the College Management System</p>
+        </div>
+
+        <!-- Body -->
+        <div style="padding: 30px 25px;">
+            <p style="font-size: 16px;">Dear <strong>{{full_name}}</strong>,</p>
+
+            <p style="font-size: 15px; color: #444;">
+                🎉 Congratulations! Your email address has been <strong>successfully verified</strong>.
+            </p>
+
+            <!-- Success Card -->
+            <div
+                style="background: linear-gradient(135deg, #e8f5e9, #f1f8e9); padding: 25px; border-radius: 10px; margin: 25px 0; text-align: center; border: 1px solid #c8e6c9; box-shadow: inset 0 0 10px rgba(39, 174, 96, 0.15);">
+                <div style="font-size: 50px; color: #27ae60; margin-bottom: 10px;">✔️</div>
+                <h3 style="margin: 0; color: #1b5e20;">Verification Complete</h3>
+                <p style="margin-top: 10px; font-size: 15px; color: #2e7d32;">
+                    You can now log in to your account and access all features of the College Management System.
+                </p>
+            </div>
+
+            <!-- CTA Button -->
+            <div style="text-align: center; margin: 25px 0;">
+                <a href="{{login_url}}"
+                    style="background: linear-gradient(135deg, #27ae60, #2ecc71); color: #fff; text-decoration: none; padding: 12px 30px; border-radius: 30px; font-weight: 600; font-size: 15px; display: inline-block; transition: all 0.3s;">
+                    🔐 Go to Login
+                </a>
+            </div>
+
+            <p style="font-size: 15px; color: #444;">
+                Your account is now <strong>fully activated</strong> and ready to use. You can log in using your
+                registered email and password.
+            </p>
+
+            <p style="font-size: 15px; color: #444;">
+                Thank you for joining the <strong>College Management System</strong>. We’re thrilled to have you on
+                board!
+            </p>
+
+            <p style="font-size: 14px; color: #444; margin-top: 25px;">
+                Best regards,<br>
+                <strong>College Management System Team</strong>
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div style="background-color: #f8f9fa; text-align: center; padding: 20px 15px; border-top: 1px solid #eee;">
+            <p style="font-size: 12px; color: #777; margin: 0;">
+                This is an automated message. Please do not reply to this email.
+            </p>
+            <p style="font-size: 12px; color: #aaa; margin-top: 8px;">
+                © {{current_year}} College Management System. All rights reserved.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
