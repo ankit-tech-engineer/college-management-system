@@ -18,7 +18,7 @@ async def get_request_logs(
     search: Optional[str] = Query(None),
     select: Optional[str] = Query(None),
     no_limit: bool = Query(False),
-    current_user: dict = Depends(permission_service.require_permission("request_logs", "read"))
+    current_user: dict = Depends(permission_service.require_permission("request_log", "read"))
 ):
     """Get request logs (super-admin only)"""
     try:
